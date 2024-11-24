@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traillers</Mr></title>
+    <link rel="shortcut icon" href="img/favicon.png" type="favicon">
+    <style>
+        * {
+            margin: 0 0;
+        }
+        body {background-color: black;
+        }
+        .container{
+            margin: 1vh;
+        }
+        .menu {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        .video{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                padding-bottom: 56.25%; /* 16:9 */
+                height: 0;
+                overflow: hidden;
+            
+            }
+        .video iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 90vh;
+        }
+        svg {color: gray;}
+        a {color: gray;
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="menu">
+    <a href="/index.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+      </svg></a>
+    </div>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dJTU48_yghs?si=OdKMoff_DWTDFm_Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

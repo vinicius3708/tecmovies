@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecmovies- Filmes & Séries</title>
+
+  <link rel="shortcut icon" href="img/favicon.png" type="favicon"> <!--icone no guia da pagina-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="caroussel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!----- #HEADER------>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="index.html" class="logo">
+        <img src="img/logoheader.png" alt="Tecmovies-logo">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <button class="btn btn-primary"> Entrar </button>
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="index.html" class="logo">
+            <img src="img/logoheader.png" alt="Tecmovies-logo">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Início </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Filmes</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Series</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Estudo</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Sobre</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!--- #background inicio --->
+
+      <section class="inicio-section">
+        <div class="container">
+            <div class="inicio-content">
+                <p class="inicio-text">Tecmovies Filmes & Séries</Fieldset></p>
+                <h1 class="h1 inicio-title">
+                    Filmes e Séries <brim>e muito mais.
+                </h1>
+                <div class="meta-wrapper">
+                    <div class="badge-wrapper">
+                        <div class="badge badge-fill">16</div>
+                        <div class="badge badge-outline">HD</div>
+                    </div>
+                    <div class="ganre-wrapper">
+                        <a href="#">Suspense</a>
+                        <a href="#"></a>
+                    </div>
+                    <div class="date-time">
+                        <div>
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <time datetime="2024">2024</time>
+                        </div>
+                        <div>
+                            <ion-icon name="time-outline"></ion-icon>
+                            <time datetime="PT45M">45 min</time>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary">
+                    <ion-icon name="play"></ion-icon>
+                    <span>Assista agora</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="caroussel">
+      <h1 class="title">Carroussel</h1>
+      <div class="carrossel">
+        <div class="imagens">
+          <div class="movie-card">
+            <a href="./player.html">
+              <figure class="card-banner">
+              <img src="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdLrRZnIfJpx5YbBFHO3NKQA5vAsqKBJZc77AwPJHhfWKBQ0xupDl1FeOP5z1nlJgSF7a7h22AxB6QNRKLDEFIMI_sLwHZf64ezPwaM8ZD8hQ2I21ZIC8fU265KZGyixjLQyNw.jpg?r=9d4" alt="Mr Robot poster">
+              </figure>
+              </a>
+
+            <div class="title-wrapper">
+              <a href="player.html">
+                <h3 class="card-title">Sintônia de Natal</h3>
+              </a>
+
+              <time datetime="2024">2024</time>
+            </div>
+
+            <div class="card-meta">
+              <div class="badge badge-outline">HD</div>
+
+              <div class="duration">
+                <ion-icon name="time-outline"></ion-icon>
+
+                <time datetime="PT137M">1h45min</time>
+              </div>
+
+              <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <data>3.7</data>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <a href="traillers/pedroparamo.html">
+              <figure class="card-banner">
+                <img src="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRaS5qY5frWvHVkGtnqcO-5PKHaUNnOOE9i-doFtnhcYj6jUeMn7nbp_ZrA4BUvgIfhJ95irby6m5z_x13gshynMXV7kWRG2NSsDSHp1O7SA5-20UfHXK_dQi_ug_E04mn3h4g.jpg?r=f79"
+                  alt="pedro paramo ">
+              </figure>
+            </a>
+            <div class="title-wrapper">
+              <a href="./movie-details.html">
+                <h3 class="card-title">Pedro Páramo</h3>
+              </a>
+              <time datetime="2024">2024</time>
+            </div>
+            <div class="card-meta">
+              <div class="badge badge-outline">4K</div>
+              <div class="duration">
+                <ion-icon name="time-outline"></ion-icon>
+                <time datetime="PT58M">2h10min</time>
+              </div>
+              <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <data>3.1</data>
+              </div>
+            </div>
+          </div>
+
+          <div class="movie-card">
+            <a href="./traillers/casamentoascegas.html">
+              <figure class="card-banner">
+                <img src="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSV_8ey6H_VgzONB9Gsmxl7uh9vuppxy7xkNmKv4SaD_HgonBc0SEI-8Q2KYGKbF6J-H3MQJgd3y8wpAQB48GZwoWV7sHvJ_sH-o-zUeIK866gHqjmuhR6yOLYIHZ_neauET-A.jpg?r=1ea">
+              </figure>
+            </a>
+            <div class="title-wrapper">
+              <a href="player.html">
+                <h3 class="card-title">Casamento às cegas Argentina</h3>
+              </a>
+              <time datetime="2024">2024</time>
+            </div>
+            <div class="card-meta">
+              <div class="badge badge-outline">HD</div>
+              <div class="duration">
+                <ion-icon name="time-outline"></ion-icon>
+                <time datetime="PT137M">56min</time>
+              </div>
+              <div class="rating">
+                <ion-icon name="star"></ion-icon>
+                <data>4.5</data>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </section>
+
+      <!--#FILMES-->
+      <section class="upcoming">
+        <div class="container">
+
+          <div class="flex-wrapper">
+
+            <div class="title-wrapper">
+              <p class="section-subtitle"></p>
+
+              <h2 class="h2 section-title">Recomendados</h2>
+            </div>
+
+            <ul class="filter-list">
+
+              <li>
+                <button class="filter-btn">Filmes</button>
+              </li>
+
+              <li>
+                <button class="filter-btn">Series</button>
+              </li>
+
+              <li>
+                <button class="filter-btn">Estudo</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="movies-list  has-scrollbar">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./player.html">
+                  <figure class="card-banner">
+                  <img src="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABdLrRZnIfJpx5YbBFHO3NKQA5vAsqKBJZc77AwPJHhfWKBQ0xupDl1FeOP5z1nlJgSF7a7h22AxB6QNRKLDEFIMI_sLwHZf64ezPwaM8ZD8hQ2I21ZIC8fU265KZGyixjLQyNw.jpg?r=9d4" alt="Mr Robot poster">
+                  </figure>
+                  </a>
+
+                <div class="title-wrapper">
+                  <a href="player.html">
+                    <h3 class="card-title">Sintônia de Natal</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT137M">1h45min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>3.7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="traillers/pedroparamo.html">
+                  <figure class="card-banner">
+                    <img src="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRaS5qY5frWvHVkGtnqcO-5PKHaUNnOOE9i-doFtnhcYj6jUeMn7nbp_ZrA4BUvgIfhJ95irby6m5z_x13gshynMXV7kWRG2NSsDSHp1O7SA5-20UfHXK_dQi_ug_E04mn3h4g.jpg?r=f79"
+                      alt="pedro paramo ">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./movie-details.html">
+                    <h3 class="card-title">Pedro Páramo</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT58M">2h10min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>3.1</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/casamentoascegas.html">
+                  <figure class="card-banner">
+                    <img src="https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSV_8ey6H_VgzONB9Gsmxl7uh9vuppxy7xkNmKv4SaD_HgonBc0SEI-8Q2KYGKbF6J-H3MQJgd3y8wpAQB48GZwoWV7sHvJ_sH-o-zUeIK866gHqjmuhR6yOLYIHZ_neauET-A.jpg?r=1ea">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Casamento às cegas Argentina</h3>
+                  </a>
+
+                  <time datetime="2024">2024</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="1H">56min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>4.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/siliconvalley.html">
+                  <figure class="card-banner">
+                    <img src="img/Silicon Valley1-Poster.jpg"
+                      alt="Silicon Valley poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Silicon Valley</h3>
+                  </a>
+
+                  <time datetime="2014">2014</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT30M">1h37min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>4.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- #SERIES-->
+
+      <section class="top-rated">
+        <div class="container">
+
+          <h2 class="h2 section-title">Os Melhores Filmes</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn">Filmes</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Series</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Estudo</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Recomendados</button>
+            </li>
+
+          </ul>
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="/traillers/theimitationgame.html">
+                  <figure class="card-banner">
+                    <img src="img/The Imitation Game-Poster.jpg" alt="The Imitation Game">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                <a href="/.player.html">
+                    <h3 class="card-title">O Jogo da Imitação</h3>
+                  </a>
+
+                  <time datetime="2022">2014</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT114M">114 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/transcedence.html">
+                  <figure class="card-banner">
+                    <img src="img/Transcende-Poster.jpg" alt="Transcedence">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Transcedence</h3>
+                  </a>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT119M">119 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>6.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/minorityreport.html">
+                  <figure class="card-banner">
+                    <img src="img/Minority Report-Poster.jpg" alt="Minority-Report">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Minority Report</h3>
+                  </a>
+
+                  <time datetime="2002">2002</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT145M">145 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.6</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/her.html">
+                  <figure class="card-banner">
+                    <img src="img/Her-Poster.jpg" alt="Her-Poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Her</h3>
+                  </a>
+
+                  <time datetime="2013">2013</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT126M">126 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/hackers.html">
+                  <figure class="card-banner">
+                    <img src="img/Hackers-Poster.jpg" alt="Hackers-Poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Hackers</h3>
+                  </a>
+
+                  <time datetime="1995">1995</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT105M">105 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.0</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/stevejobs.html">
+                  <figure class="card-banner">
+                    <img src="img/Steve Jobs-Poster.jpg" alt="Steve Jobs poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Steve Jobs</h3>
+                  </a>
+
+                  <time datetime="2015">2015</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT122M">122 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.2</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/ex-machina.html">
+                  <figure class="card-banner">
+                    <img src="img/Ex-Machina-Poster.jpg" alt="Ex-Machina-Poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Ex-Machina</Ex-Machina></h3>
+                  </a>
+
+                  <time datetime="2014">2014</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT108M">108 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.7</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/aredesocial.html">
+                  <figure class="card-banner">
+                    <img src="img/A Rede Social-Poster.jpg" alt="A rede Social-Poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">A Rede Social</h3>
+                  </a>
+
+                  <time datetime="2010">2010</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">HD</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT120M">120 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--#TV SERIES -->
+
+      <section class="tv-series">
+        <div class="container">
+
+          <h2 class="h2 section-title">As Melhores Séries</h2>
+
+          <ul class="movies-list">
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/westworld.html">
+                  <figure class="card-banner">
+                    <img src="img/Westworld-Poster.jpg" alt="Westworld-Poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Westworld</h3>
+                  </a>
+
+                  <time datetime="2016">2016</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT60M">60 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>8.5</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/alteredcarbon.html">
+                  <figure class="card-banner">
+                    <img src="img/Altered Carbon-Poster.jpg" alt="Altered Carbon Poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Altered Carbon</h3>
+                  </a>
+
+                  <time datetime="2018">2018</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT60M">60 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.9</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/comovenderdrogasonline.html">
+                  <figure class="card-banner">
+                    <img src="img/Como Vender Drogas Online-Poster.jpg" alt="Como Vender Drogas Online poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Como Vender Drogas Online</h3>
+                  </a>
+
+                  <time datetime="2019">2019</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">2K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT30M">30 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="movie-card">
+
+                <a href="./traillers/unpload.html">
+                  <figure class="card-banner">
+                    <img src="img/Unpload-Poster.jpg" alt="Unpload poster">
+                  </figure>
+                </a>
+
+                <div class="title-wrapper">
+                  <a href="./player.html">
+                    <h3 class="card-title">Unpload</h3>
+                  </a>
+
+                  <time datetime="2020">2020</time>
+                </div>
+
+                <div class="card-meta">
+                  <div class="badge badge-outline">4K</div>
+
+                  <div class="duration">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="PT30M">30 min</time>
+                  </div>
+
+                  <div class="rating">
+                    <ion-icon name="star"></ion-icon>
+
+                    <data>7.8</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--#CTA-->
+
+    </article>
+  </main>
+
+  <!-- #FOOTER -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="index.html" class="logo">
+            <img src="img/logoheader.png" alt="Tecmovies-logo">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="footer-link">inicio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Filmes</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Series</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Estudo</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sobre</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="#" class="quicklink-link">Ajuda</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Perguntas</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Termos de Uso</a>
+            </li>
+
+            <li>
+              <a href="#" class="quicklink-link">Privacidade</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyrgiht">
+          &copy; 2024 <a href="#">Tecmovies- Todos os Direitos reservados</a>.
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+  
+  <script src="caroussel.js"></script>
+
+  <!--- custom js link-->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+.caroussel {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+      }
+      
+      .title{
+        margin: 10px auto;
+        color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .carrossel {
+        margin: 0 auto;
+        position: relative;
+        width: 80%;
+        max-width: 800px;
+        overflow: hidden;
+      }
+      
+      .imagens {
+        display: flex;
+        transition: transform 0.5s ease;
+      }
+
+      .imagens > div {
+        margin: 10px;
+        width: 100%;
+      }
+      
+      .imagens img {
+        width: 100%;
+        height: auto;
+      }
+      
+      button {
+        position: absolute;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 30px;
+        transform: translateY(-50%);
+        z-index: 10;
+      }
+      
+      button.prev {
+        left: 10px;
+      }
+      
+      button.next {
+        right: 10px;
+      }
+      
+      button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+           
+}
